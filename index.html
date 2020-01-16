@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header bg-dark text-light text-center">
+        <h2>Registration Portal</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="card">
+                        <div class="loader">
+                            <img src="img/ajax-loader.gif" alt="">
+                        </div>
+                        <h3>Student Registration Form</h3>
+                        <form>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-sm col-md-6">
+                                        <label for="firstName">First Name <abbr title="required">*</abbr></label>
+                                        <input type="text" name="" id="firstName" class="form-control"
+                                            placeholder="First Name">
+                                    </div>
+
+                                    <div class="col-sm col-md-6">
+                                        <label for="lastName">Last Name <abbr title="required">*</abbr></label>
+                                        <input type="text" name="" id="lastName" class="form-control"
+                                            placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                <select name="" id="gender" class="form-control">
+                                    <option></option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State Of Origin</label>
+                                <input type="text" name="" id="state" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Date Of Birth</label>
+                                <input type="date" name="" id="date" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="course">Select Course <abbr title="required">*</abbr></label>
+                                <select name="" id="course" class="form-control">
+                                    <option></option>
+                                    <option value="banking/Finance">Banking/Finance</option>
+                                    <option value="Education & Computer science">Education & Computer science</option>
+                                    <option value="Mechanical engineering">Mechanical Engineering</option>
+                                </select>
+                            </div>
+                            <div class="form-inline">
+                                <input type="submit" id="save" class="btn btn-success m-1" value="Save">
+                                <input type="submit" name="" id="clear" class="btn btn-info" value="Clear">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="table-data table-responsive">
+                        <table class="table">
+                            <h3>Registered Students</h3>
+                            <thead class=" thead-dark">
+                                <tr class="student-list">
+                                    <th scope="col">NAME</th>
+                                    <th scope="col">GENDER</th>
+                                    <th scope="col">STATE</th>
+                                    <th scope="col">DOB</th>
+                                    <th scope="col">COURSE</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="student-data">
+                                    <td scope="row">Buchi Godwin</td>
+                                    <td>Male</td>
+                                    <td>Anambra</td>
+                                    <td>21/06/2020</td>
+                                    <td>Computer Science</td>
+                                    <td><i class="fa fa-trash" job="delete"></i></td>
+                                </tr>
+                                <tr class="student-data">
+                                    <td scope="row">Buchi Godwin</td>
+                                    <td>Male</td>
+                                    <td>Anambra</td>
+                                    <td>21/06/2020</td>
+                                    <td>Computer Science</td>
+                                    <td><i class="fa fa-trash" job="delete"></i></td>
+                                </tr>
+                                <tr class="student-data">
+                                    <td scope="row">Buchi Godwin</td>
+                                    <td>Male</td>
+                                    <td>Anambra</td>
+                                    <td>21/06/2020</td>
+                                    <td>Computer Science</td>
+                                    <td><i class="fa fa-trash" job="delete"></i></td>
+                                </tr>
+                                <tr class="student-data">
+                                    <td scope="row">Buchi Godwin</td>
+                                    <td>Male</td>
+                                    <td>Anambra</td>
+                                    <td>21/06/2020</td>
+                                    <td>Computer Science</td>
+                                    <td><i class="fa fa-trash" job="delete"></i></td>
+                                </tr>
+                                <tr class="student-data">
+                                    <td scope="row">Buchi Godwin</td>
+                                    <td>Male</td>
+                                    <td>Anambra</td>
+                                    <td>21/06/2020</td>
+                                    <td>Computer Science</td>
+                                    <td><i class="fa fa-trash" job="delete"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

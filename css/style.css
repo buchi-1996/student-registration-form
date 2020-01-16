@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    position: relative;
+    box-shadow: 0 0 1em #ccc;
+    margin-top: 20px;
+    padding: 24px;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    display: none;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 0 25px;
+    color:#666;
+}
+
+input[type="date"]:focus{
+    background: lightblue;
+}
+
+input[type="text"]:focus{
+    background: lightblue;
+}
+
+.table-data{
+    box-shadow: 0 0 1em #ccc;
+    margin-top: 20px;
+    padding: 24px; 
+}
+
+.table-data h3{
+    text-align: center;
+    margin: 0 0 25px;
+    color:#666;
+}
+
+thead,tbody{
+    border: 1px solid #000;
+}
+
+
+
+
+
