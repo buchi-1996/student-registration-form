@@ -27,6 +27,13 @@
 input[type="date"]:focus{
     background: lightblue;
 }
+.fa-trash{
+    transition: all 1s ease-in-out;
+}
+.fa-trash:hover{
+    transform: scale(1.1);
+    color: gold;
+}
 
 input[type="text"]:focus{
     background: lightblue;
@@ -36,6 +43,21 @@ input[type="text"]:focus{
     box-shadow: 0 0 1em #ccc;
     margin-top: 20px;
     padding: 24px; 
+}
+ h3{
+    position: relative;
+}
+ h3::after{
+    content: 'New';
+    background-color: #66ccff;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    right: 23%;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 50%;
+    z-index: -99;
 }
 
 .table-data h3{
