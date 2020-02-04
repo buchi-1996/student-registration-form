@@ -47,7 +47,7 @@ input[type="text"]:focus{
  h3{
     position: relative;
 }
- h3::after{
+ /* h3::after{
     content: 'New';
     background-color: #66ccff;
     color: #fff;
@@ -57,8 +57,8 @@ input[type="text"]:focus{
     padding: 2px 4px;
     font-size: 12px;
     border-radius: 50%;
-    z-index: -99;
-}
+    z-index: 99;
+} */
 
 .table-data h3{
     text-align: center;
@@ -70,7 +70,12 @@ thead,tbody{
     border: 1px solid #000;
 }
 
-
+/* 
+@media screen and (max-width: 768px){
+    .first-name, .last-name{
+        margin: 15px 0;
+    }
+} */
 
 
 
